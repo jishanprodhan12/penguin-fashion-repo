@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Penguins Fashons</title>
+    <!-- font awasome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body  >
@@ -31,12 +33,12 @@
             <h1 class="mt-5 md:mt-7 "> 
                 <span class="text-3xl md:text-5xl text-orange-300 font-bold">Be the Penguins</span>
                  <br>
-                <span class="text-3xl md:text-5xl font-bold text-cycn-600">of Winter</span>
+                <span class="text-3xl md:text-5xl font-bold text-blueGray-700">of Winter</span>
             </h1>
             <br>
             <p class="w-2/3 md:w-1/3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, alias!</p>
             <br>
-            <button class="flex aling-center justify-center px-5 py-2 bg-green-600 text-red-50 rounded-md w-fit">BUY NOW
+            <button class="flex items-center justify-center px-5 py-2 bg-gradient-to-r from-lime-500 to-lime-600 text-gray-50 rounded-md w-fit gap-1"><i class="fa-solid fa-cart-shopping "></i> BUY NOW
             </button>
            </div>
            <!-- banner img container  -->
@@ -44,13 +46,65 @@
                 <img class="w-full" src="images/model.png" alt="">
             </div>
          </section>
-         
+         <!-- hambergur  -->
+         <!-- <i class="fa-solid fa-bars"></i> -->
     </header>
     <main class="max-w-screen-xl mx-auto px-4 md:px-10 lg:px-20">
         <!-- women jacket  -->
-         <section >
-            <h1>WOMAN Jacket
+         <section class="mt-4 md:mt-8">
+            <h1 class="uppercase font-bold text-2xl md:text-3xl ">WOMAN Jacket
             </h1>
+            <br>
+            <!-- women jacket card conatiner -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
+                <!--women jacket first card  -->
+                <div class="p-4 w-fit overflow-hidden roudned-3xl  flex flex-col justify-center border drop-shadow-xl rounded-2xl ">
+                    <!-- img container -->
+                        <img class="w-full   bg-gray-100 p-5 r" src="images/jacket-1.png" alt="">
+                        <!-- text  -->
+                     <h3 class="text-xl font-bold pt-2 pb-2">Snowboard Jacket Mens</h3>
+                     <p class="text-sm w-3/4 p-2">Lorem Ipsum is simply dummy text of the 
+                        printing and typesetting industry.</p>
+                        <!-- price and btn  -->
+                        <div class="flex justify-between items-center  md:w-full"> 
+                            <h1 class="text-2xl text-orange-300 font-bold">$234</h1>
+                            <button class="flex items-center justify-center px-5 py-2 bg-gradient-to-r from-lime-500 to-lime-600 text-gray-50 rounded-md w-fit gap-1"><i class="fa-solid fa-cart-shopping "></i> BUY NOW
+                            </button>
+                        </div>
+                
+                </div>
+                <!-- card 2 -->
+                <div class="p-4 w-fit overflow-hidden roudned-3xl  flex flex-col justify-center border drop-shadow-xl rounded-2xl ">
+                    <!-- img container -->
+                        <img class="w-full   bg-gray-100 p-5 r" src="images/jacket-2.png" alt="">
+                        <!-- text  -->
+                     <h3 class="text-xl font-bold pt-2 pb-2">Snowboard Jacket Mens</h3>
+                     <p class="text-sm w-3/4 p-2">Lorem Ipsum is simply dummy text of the 
+                        printing and typesetting industry.</p>
+                        <!-- price and btn  -->
+                        <div class="flex justify-between items-center  md:w-full"> 
+                            <h1 class="text-2xl text-orange-300 font-bold">$234</h1>
+                            <button class="flex items-center justify-center px-5 py-2 bg-gradient-to-r from-lime-500 to-lime-600 text-gray-50 rounded-md w-fit gap-1"><i class="fa-solid fa-cart-shopping "></i> BUY NOW
+                            </button>
+                        </div>
+                </div>
+                <!-- card 3 -->
+                <div class="p-4 w-fit overflow-hidden roudned-3xl  flex flex-col justify-center border drop-shadow-xl rounded-2xl ">
+                    <!-- img container -->
+                        <img class="w-full   bg-gray-100 p-5 r" src="images/jacket-3.png" alt="">
+                        <!-- text  -->
+                     <h3 class="text-xl font-bold pt-2 pb-2">Snowboard Jacket Mens</h3>
+                     <p class="text-sm w-3/4 p-2">Lorem Ipsum is simply dummy text of the 
+                        printing and typesetting industry.</p>
+                        <!-- price and btn  -->
+                        <div class="flex justify-between items-center  md:w-full"> 
+                            <h1 class="text-2xl text-orange-300 font-bold">$234</h1>
+                            <button class="flex items-center justify-center px-5 py-2 bg-gradient-to-r from-lime-500 to-lime-600 text-gray-50 rounded-md w-fit gap-1"><i class="fa-solid fa-cart-shopping "></i> BUY NOW
+                            </button>
+                        </div>
+                
+                </div>
+            </div>
          </section>
     </main>
     <footer>
